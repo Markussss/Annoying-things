@@ -1,4 +1,7 @@
 ! Title: Annoying things
+! Author: Markus Igeland
+! Version: 1.0
+! Expires: 1 days
 ! Homepage: https://github.com/Markussss/Annoying-things
 
 ! Remove w3schools from google searches
