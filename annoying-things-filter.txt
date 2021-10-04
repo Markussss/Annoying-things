@@ -1,0 +1,35 @@
+! Title: Annoying things
+! Homepage: https://github.com/Markussss/Annoying-things
+
+! Remove w3schools from google searches
+google.*##.g:has(a[href*=".w3schools."])
+
+! Remove engagement pushing content on Facebook
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(replied to a comment)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 1 comment)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 2 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 3 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 4 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 5 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 6 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 7 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 8 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 9 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 10 comments)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text( commented.)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(was tagged)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(commented on)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(Free Nordic Healing)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(shared a post)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(shared a memory)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(from the playlist)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(Suggested for you)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(Sponsored)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(is going to this online event)
+
+! Remove playlist mixes based on videos you have watched on YouTube
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Mix - )
+
+! Remove already watched videos from suggestions on YouTube
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(ytd-thumbnail-overlay-resume-playback-renderer)
+www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-resume-playback-renderer)
