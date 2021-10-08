@@ -22,7 +22,6 @@ www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 10 comm
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text( commented.)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(was tagged)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(commented on)
-www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(Free Nordic Healing)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(shared a post)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(shared a memory)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(from the playlist)
