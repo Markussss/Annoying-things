@@ -28,6 +28,8 @@ www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(from the play
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(Suggested for you)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(Sponsored)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(is going to this online event)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(is interested)
+
 
 ! Remove playlist mixes based on videos you have watched on YouTube
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Mix - )
