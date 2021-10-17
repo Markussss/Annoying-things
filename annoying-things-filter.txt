@@ -30,6 +30,10 @@ www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(Sponsored)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(is going to this online event)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(is interested)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(/S-*p-*o-*n-*s-*o-*r-*e-*d/)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(were tagged)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(listed an item for sale)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(are interested in this online event)
+
 
 
 ! Remove playlist mixes based on videos you have watched on YouTube
