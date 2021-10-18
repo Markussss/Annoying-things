@@ -39,6 +39,12 @@ www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(are intereste
 ! Remove playlist mixes based on videos you have watched on YouTube
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Mix - )
 
-! Remove already watched videos from suggestions on YouTube
+
+
+! Remove annoying things videos from suggestions on YouTube
+! Already watched videos:
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(ytd-thumbnail-overlay-resume-playback-renderer)
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-resume-playback-renderer)
+
+! Remove videos under a minute long
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text( 0:)
