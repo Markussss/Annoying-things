@@ -1,6 +1,6 @@
 ! Title: Annoying things
 ! Author: Markus Igeland
-! Version: 1.1
+! Version: 1.2
 ! Expires: 1 days
 ! Homepage: https://github.com/Markussss/Annoying-things
 
