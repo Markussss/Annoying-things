@@ -46,8 +46,8 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-t
 
 ! Remove annoying things videos from suggestions on YouTube
 ! Already watched videos:
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(ytd-thumbnail-overlay-resume-playback-renderer)
-www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-resume-playback-renderer)
+www.youtube.com##ytd-rich-item-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
+www.youtube.com##ytd-compact-video-rendererhas(ytd-thumbnail-overlay-resume-playback-renderer)
 
 ! Remove videos under a minute long
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text( 0:)
+www.youtube.com##ytd-rich-item-renderer:has-text( 0:)
