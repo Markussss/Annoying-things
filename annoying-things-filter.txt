@@ -38,7 +38,10 @@ www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(updated her c
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(updated their cover photo)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(i[aria-label="Verified account"])
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(span:has-text(Join))
-www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(a[aria-label="See menu"])
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="See menu"])
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(People You May Know)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="Send message"])
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="Learn more"])
 
 ! Remove playlist mixes based on videos you have watched on YouTube
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Mix - )
