@@ -58,3 +58,7 @@ www.youtube.com##ytd-compact-video-renderer:has(ytd-thumbnail-overlay-resume-pla
 
 ! Remove videos under a minute long
 www.youtube.com##ytd-rich-item-renderer:has-text( 0:)
+
+! Remove socialContext-posts from twitter
+mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-j5o65s.css-1dbjc4n:has(span[data-testid=socialContext])
+twitter.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-j5o65s.css-1dbjc4n:has(span[data-testid=socialContext])
