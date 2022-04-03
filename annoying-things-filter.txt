@@ -7,7 +7,7 @@
 ! Remove w3schools from google searches
 google.*##.g:has(a[href*=".w3schools."])
 
-# Remove video search results from pages that are not youtube on google video search tab
+! Remove video search results from pages that are not youtube on google video search tab
 google.*###main:has(div[aria-current="page"]:has-text(Video)) .g:not(:has(a[href*=".youtube."]))
 
 ! Remove engagement pushing content on Facebook
@@ -47,7 +47,11 @@ www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="See 
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(People You May Know)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="Send message"])
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="Learn more"])
+
+! Remove posts shared from other users/pages. There are a few variations of these needed in order to block the different kinds of shares.
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(.cwj9ozl2.l6v480f0.maa8sdkg.s1tcr66n.aypy0576.ue3kfks5.pw54ja7n.uo3d90p7.l82x9zwi.tvfksri0.ozuftl9m)
+www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(.cwj9ozl2.qbxu24ho.bxzzcbxg.lxuwth05.h2mp5456.ue3kfks5.pw54ja7n.uo3d90p7.l82x9zwi.goun2846.ccm00jje.s44p3ltw.mk2mc5f4.frvqaej8.ed0hlay0.afxsp9o4.jcgfde61.tvfksri0.ozuftl9m)
+
 
 ! Remove playlist mixes based on videos you have watched on YouTube
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Mix - )
