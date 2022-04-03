@@ -7,6 +7,9 @@
 ! Remove w3schools from google searches
 google.*##.g:has(a[href*=".w3schools."])
 
+# Remove video search results from pages that are not youtube on google video search tab
+google.*###main:has(div[aria-current="page"]:has-text(Video)) .g:not(:has(a[href*=".youtube."]))
+
 ! Remove engagement pushing content on Facebook
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(replied to a comment)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(added 1 comment)
