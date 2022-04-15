@@ -38,3 +38,4 @@ What and why
   - *Filter goal*: Remove social network parts of Twitter, while keeping the "Follow"-buttons on each profile.
   - No more retweets
   - Remove "Who to follow" and "Topics to follow" suggestions
+  - Right side bar (use "Explore" in the left side bar if you want to search)
