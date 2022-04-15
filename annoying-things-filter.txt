@@ -80,3 +80,8 @@ twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(to follow)
 
 mobile.twitter.com##.r-jw8lkh.r-5f2r5o.r-18u37iz.r-1awozwy.css-1dbjc4n:has(.r-lrvibr.r-1plcrui.r-bnwqim.r-dnmrzs.r-ltgprq.r-1xvli5t.r-1q142lx.r-yyyyoo.r-4qtqp9.r-1cvl2hr)
 twitter.com##.r-jw8lkh.r-5f2r5o.r-18u37iz.r-1awozwy.css-1dbjc4n:has(.r-lrvibr.r-1plcrui.r-bnwqim.r-dnmrzs.r-ltgprq.r-1xvli5t.r-1q142lx.r-yyyyoo.r-4qtqp9.r-1cvl2hr)
+
+mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(a[href*=topic])
+twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(a[href*=topic])
+mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(a[href*=connect_people])
+twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(a[href*=connect_people])
