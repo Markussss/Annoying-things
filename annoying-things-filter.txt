@@ -1,6 +1,6 @@
 ! Title: Annoying things
 ! Author: Markus Igeland
-! Version: 1.5
+! Version: 1.6
 ! Expires: 1 days
 ! Homepage: https://github.com/Markussss/Annoying-things
 
@@ -67,6 +67,16 @@ www.youtube.com##ytd-compact-video-renderer:has(ytd-thumbnail-overlay-resume-pla
 ! Remove videos under a minute long
 www.youtube.com##ytd-rich-item-renderer:has-text( 0:)
 
-! Remove socialContext-posts from twitter
+! Remove socialContext-posts from Twitter
 mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-j5o65s.css-1dbjc4n:has(span[data-testid=socialContext])
 twitter.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-j5o65s.css-1dbjc4n:has(span[data-testid=socialContext])
+
+! Remove "Who to follow" and "Topics to follow" from Twitter
+mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n > .r-6416eg.r-o7ynqc.r-23eiwj.r-1atloto.r-1ny4l3l.css-1dbjc4n.css-18t94o4:has(.r-ltgprq.css-1dbjc4n)
+twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n > .r-6416eg.r-o7ynqc.r-23eiwj.r-1atloto.r-1ny4l3l.css-1dbjc4n.css-18t94o4:has(.r-ltgprq.css-1dbjc4n)
+
+mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(to follow)
+twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(to follow)
+
+mobile.twitter.com##.r-jw8lkh.r-5f2r5o.r-18u37iz.r-1awozwy.css-1dbjc4n:has(.r-lrvibr.r-1plcrui.r-bnwqim.r-dnmrzs.r-ltgprq.r-1xvli5t.r-1q142lx.r-yyyyoo.r-4qtqp9.r-1cvl2hr)
+twitter.com##.r-jw8lkh.r-5f2r5o.r-18u37iz.r-1awozwy.css-1dbjc4n:has(.r-lrvibr.r-1plcrui.r-bnwqim.r-dnmrzs.r-ltgprq.r-1xvli5t.r-1q142lx.r-yyyyoo.r-4qtqp9.r-1cvl2hr)
