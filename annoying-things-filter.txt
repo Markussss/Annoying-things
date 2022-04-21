@@ -1,6 +1,6 @@
 ! Title: Annoying things
 ! Author: Markus Igeland
-! Version: 1.7
+! Version: 1.8
 ! Expires: 1 days
 ! Homepage: https://github.com/Markussss/Annoying-things
 
@@ -85,6 +85,12 @@ mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(a[href*=topic])
 twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(a[href*=topic])
 mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(a[href*=connect_people])
 twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(a[href*=connect_people])
+mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(Push notifications)
+twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(Push notifications)
+mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(Expand your timeline)
+twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(Expand your timeline)
+mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(div[data-testid="ScrollSnap-SwipeableList"])
+twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(div[data-testid="ScrollSnap-SwipeableList"])
 
 ! Remove right side bar on Twitter
 mobile.twitter.com##.r-1hycxz.r-1udh08x.r-zso239.r-aqfbo4.css-1dbjc4n
