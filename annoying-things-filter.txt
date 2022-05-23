@@ -1,6 +1,6 @@
 ! Title: Annoying things
 ! Author: Markus Igeland
-! Version: 1.8
+! Version: 1.9
 ! Expires: 1 days
 ! Homepage: https://github.com/Markussss/Annoying-things
 
@@ -47,6 +47,8 @@ www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="See 
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(People You May Know)
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="Send message"])
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(*[aria-label="Learn more"])
+##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has-text(Reels)
+##.tvmbv18p.cwj9ozl2 > ul > li:has-text(GIPHY) ! Block comments with GIPHY-videos
 
 ! Remove posts shared from other users/pages. There are a few variations of these needed in order to block the different kinds of shares.
 www.facebook.com##.pnx7fd3z.tn0ko95a.pedkr2u6 > div > div:has(.cwj9ozl2.l6v480f0.maa8sdkg.s1tcr66n.aypy0576.ue3kfks5.pw54ja7n.uo3d90p7.l82x9zwi.tvfksri0.ozuftl9m)
@@ -91,6 +93,9 @@ mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(Expand your timeli
 twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has-text(Expand your timeline)
 mobile.twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(div[data-testid="ScrollSnap-SwipeableList"])
 twitter.com##.r-1ny4l3l.r-1adg3ll.css-1dbjc4n:has(div[data-testid="ScrollSnap-SwipeableList"])
+
+mobile.twitter.com####.r-184en5c.r-13qz1uu.r-1ye8kvj.r-61z16t.r-11wrixw.r-1jgb5lz.r-1phboty.r-13l2t4g.r-1ljd8xs.r-jxzhtn.r-14lw9ot.css-1dbjc4n > .css-1dbjc4n > .r-13qz1uu.r-1ye8kvj.r-1jgb5lz.css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > div > div:has-text(/Click to Follow|Show more|Discover/)
+twitter.com####.r-184en5c.r-13qz1uu.r-1ye8kvj.r-61z16t.r-11wrixw.r-1jgb5lz.r-1phboty.r-13l2t4g.r-1ljd8xs.r-jxzhtn.r-14lw9ot.css-1dbjc4n > .css-1dbjc4n > .r-13qz1uu.r-1ye8kvj.r-1jgb5lz.css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > .css-1dbjc4n > div > div:has-text(/Click to Follow|Show more|Discover/)
 
 ! Remove right side bar on Twitter
 mobile.twitter.com##.r-1hycxz.r-1udh08x.r-zso239.r-aqfbo4.css-1dbjc4n
