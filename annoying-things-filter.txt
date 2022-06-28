@@ -103,3 +103,13 @@ twitter.com##.r-1hycxz.r-1udh08x.r-zso239.r-aqfbo4.css-1dbjc4n
 
 ! Remove posts with videos on linkedin
 www.linkedin.com##.ember-view.occludable-update:has(video)
+
+! google-search-cleanup; some from letsblockit
+google.*###rso > div:has(div.related-question-pair)
+google.*###botstuff #bres
+google.*###rso div.g div[jscontroller]
+google.*##div.isv-r[data-rfg]
+google.*###footcnt > #fbarcnt
+google.*###rso > :not(div.g):not(:has(:scope>div.g))
+google.*##g-expandable-container:upward(2)
+
