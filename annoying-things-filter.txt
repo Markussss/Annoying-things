@@ -1,18 +1,11 @@
 ! Title: Annoying things
 ! Author: Markus Igeland
-! Version: 1.11
+! Version: 13
 ! Expires: 1 days
 ! Homepage: https://github.com/Markussss/Annoying-things
 
 
 !!!! ---- Filters from letsblock.it ---- !!!!
-! google-search-cleanup – https://letsblock.it/filters/google-search-cleanup
-google.*###rso > div:has(div.related-question-pair)
-google.*###botstuff #bres
-google.*###rso div.g div[jscontroller]
-google.*##div.isv-r[data-rfg]
-google.*###footcnt > #fbarcnt
-google.*###rso > :not(div.g):not(:has(:scope>div.g))
 
 ! Hide Youtube mixes and radios – https://letsblock.it/filters/youtube-mixes
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#video-title-link[href*="&start_radio=1"])
